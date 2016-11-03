@@ -19,16 +19,20 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
+
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
-body {
-  background-color: yellow;
-	line-height: 1;
+a{
+	text-decoration: none;
+	/*color:rgb(61,161,200);*/
 }
-ol, ul {
-	list-style: none;
+a:visited {
+	color: rgb(11,66,122);
+}
+a:hover{
+	color: rgb(11,66,122);
 }
 blockquote, q {
 	quotes: none;
@@ -38,7 +42,59 @@ q:before, q:after {
 	content: '';
 	content: none;
 }
+body {
+	font-family: helvetica, sans-serif;
+	font-size: 18px;
+	line-height: 1;
+	background-color: rgb(252,239,212)
+}
+h1{
+	font-family: georgia, serif;
+	color: rgb(20,84,140);
+	font-size: 3em;
+}
+h2{
+	font-family: georgia, serif;
+	color: rgb(20,84,140);
+	padding: 10px;
+	margin: 10px;
+	font-size: 2em;
+}
+ol, ul {
+	font-size: 20px;
+	line-height: 30px;
+	list-style-type: circle;
+	color: rgb(61,161,200);
+}
+p{
+	color: rgb(20,18,42);
+	line-height: 2em;
+}
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+}
+.content{
+display: block;
+text-align: left;
+margin: 0 auto 0 auto;
+max-width: 150px;
+padding: 30px;
+}
+.content-page{
+	display: block;
+	text-align: center;
+	margin: 0 auto 0 auto;
+	max-width: 1200px;
+	padding: 50px;
+}
+.container {
+	border: solid rgb(20,18,42) 3px;
+	display: block;
+	text-align: center;
+	margin: 0 auto 0 auto;
+	padding: 16px;
+	line-height: 30px;
+	background-color: rgb(61,161,200);
+	color:
 }
