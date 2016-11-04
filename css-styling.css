@@ -24,9 +24,7 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
-.container a{
-	text-decoration: none;
-}
+a: {color:rgb(20,84,140);}
 a:visited {
 	color: rgb(20,84,140);
 }
@@ -45,7 +43,8 @@ body {
 	font-family: helvetica, sans-serif;
 	font-size: 18px;
 	line-height: 1;
-	background-color: rgb(252,239,212)
+	background-color: rgb(252,239,212);
+	color: rgb(20,18,42);
 }
 h1{
 	font-family: georgia, serif;
@@ -93,11 +92,31 @@ table {
 	border-spacing: 0;
 }
 .content-list{
+color: rgb(20,84,140);;
 display: block;
 text-align: left;
 margin: 0 auto 0 auto;
 max-width: 200px;
 padding: 30px;
+}
+.content-list a
+{
+text-decoration: none;
+}
+.content-list a:hover{
+	color:rgb(61,161,200);
+}
+.content.list a:visited{
+	rgb(20,84,140);
+}
+.content-page a{
+	text-decoration: none;
+	}
+.content-page a:hover{
+	color:rgb(61,161,200);
+}
+	.content.list a:visited{
+		rgb(20,84,140);
 }
 .content-page{
 	display: block;
@@ -115,7 +134,9 @@ padding: 30px;
 	padding: 16px;
 	line-height: 30px;
 	background-color: rgb(61,161,200);
-
+}
+.container a{
+	text-decoration: none;
 }
 .definition{
 	border: dotted rgb(20,18,42) 2px;
@@ -129,7 +150,3 @@ padding: 30px;
 .header{
 	color: rgb(20,18,42);
 	line-height: 1em;}
-#a-format:hover{
-
-
-}
