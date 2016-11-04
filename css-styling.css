@@ -60,15 +60,30 @@ h2{
 	margin: 10px;
 	font-size: 2em;
 }
+h3{
+	font-family: georgia, serif;
+	color: rgb(20,84,140);
+	padding: 10px;
+	margin: 10px;
+	font-size: 20px;
+}
+img {
+	padding:20px;
+	margin: 0 auto 0 auto
+}
 ol, ul {
 	font-size: 20px;
 	line-height: 30px;
 	list-style-type: circle;
 	color: rgb(61,161,200);
+	padding: 6px;
+	margin: 24px;
 }
 p{
 	color: rgb(20,18,42);
 	line-height: 2em;
+	padding: 6px;
+	margin: 12px;
 }
 table {
 	border-collapse: collapse;
@@ -78,15 +93,15 @@ table {
 display: block;
 text-align: left;
 margin: 0 auto 0 auto;
-max-width: 150px;
+max-width: 200px;
 padding: 30px;
 }
 .content-page{
 	display: block;
 	text-align: center;
 	margin: 0 auto 0 auto;
-	max-width: 1200px;
-	padding: 50px;
+	max-width: 700px;
+	padding: 30px;
 }
 .container {
 	border: solid rgb(20,18,42) 3px;
@@ -96,5 +111,16 @@ padding: 30px;
 	padding: 16px;
 	line-height: 30px;
 	background-color: rgb(61,161,200);
-	color:
 }
+.definition{
+	border: dotted rgb(20,18,42) 2px;
+	display: block;
+	text-align: center;
+	margin: 0 auto 0 auto;
+	max-width: 700px;
+	padding: 18px;
+	line-height: 20px;
+}
+.header{
+	color: rgb(20,18,42);
+	line-height: 1em;}
