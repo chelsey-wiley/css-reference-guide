@@ -24,11 +24,13 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
-a: {color:rgb(20,84,140);}
-a:visited {
-	color: rgb(20,84,140);
+a: {
+	color:rgb(20,84,140);
 }
 a:hover{
+	color: rgb(20,84,140);
+}
+a:visited {
 	color: rgb(20,84,140);
 }
 blockquote, q {
@@ -40,52 +42,52 @@ q:before, q:after {
 	content: none;
 }
 body {
+	background-color: rgb(252,239,212);
+	color: rgb(20,18,42);
 	font-family: helvetica, sans-serif;
 	font-size: 18px;
 	line-height: 1;
-	background-color: rgb(252,239,212);
-	color: rgb(20,18,42);
 }
 h1{
-	font-family: georgia, serif;
 	color: rgb(20,84,140);
+	font-family: georgia, serif;
 	font-size: 3em;
 }
 h2{
-	font-family: georgia, serif;
 	color: rgb(20,84,140);
-	padding: 10px;
-	margin: 10px;
+	font-family: georgia, serif;
 	font-size: 2em;
+	margin: 10px;
+	padding: 10px;
 }
 h3{
-	font-family: georgia, serif;
 	color: rgb(20,84,140);
-	padding: 10px;
-	margin: 10px;
+	font-family: georgia, serif;
 	font-size: 20px;
+	margin: 10px;
+	padding: 10px;
 }
 img {
+	border: solid rgb(20,18,42) 2px;
 	display: block;
-	text-align: center;
 	margin: 0 auto 0 auto;
 	max-width: 700px;
 	padding: 3px;
-	border: solid rgb(20,18,42) 2px;
+	text-align: center;
 }
 ol, ul {
+	color: rgb(61,161,200);
 	font-size: 20px;
 	line-height: 30px;
 	list-style-type: circle;
-	color: rgb(61,161,200);
-	padding: 6px;
 	margin: 24px;
+	padding: 6px;
 }
 p{
 	color: rgb(20,18,42);
 	line-height: 2em;
-	padding: 6px;
 	margin: 12px;
+	padding: 6px;
 }
 table {
 	border-collapse: collapse;
@@ -94,10 +96,10 @@ table {
 .content-list{
 color: rgb(20,84,140);;
 display: block;
-text-align: left;
 margin: 0 auto 0 auto;
 max-width: 200px;
 padding: 30px;
+text-align: left;
 }
 .content-list a
 {
@@ -109,15 +111,6 @@ text-decoration: none;
 .content.list a:visited{
 	rgb(20,84,140);
 }
-.content-page a{
-	text-decoration: none;
-	}
-.content-page a:hover{
-	color:rgb(61,161,200);
-}
-	.content.list a:visited{
-		rgb(20,84,140);
-}
 .content-page{
 	display: block;
 	text-align: center;
@@ -125,15 +118,20 @@ text-decoration: none;
 	max-width: 700px;
 	padding: 30px;
 }
-.container
-{
+.content-page a{
+	text-decoration: none;
+	}
+.content-page a:hover{
+	color:rgb(61,161,200);
+}
+.container{
+	background-color: rgb(61,161,200);
 	border: solid rgb(20,18,42) 3px;
 	display: block;
-	text-align: center;
+	line-height: 30px;
 	margin: 0 auto 0 auto;
 	padding: 16px;
-	line-height: 30px;
-	background-color: rgb(61,161,200);
+	text-align: center;
 }
 .container a{
 	text-decoration: none;
@@ -141,11 +139,11 @@ text-decoration: none;
 .definition{
 	border: dotted rgb(20,18,42) 2px;
 	display: block;
-	text-align: center;
+	line-height: 20px;
 	margin: 0 auto 0 auto;
 	max-width: 700px;
 	padding: 18px;
-	line-height: 20px;
+	text-align: center;
 }
 .header{
 	color: rgb(20,18,42);
