@@ -17,5 +17,5 @@ Create an easy to access evolving resource for CSS styling. Geared toward beginn
 Imperfect code organization.
 
 ##  Solutions:
-Reorganize CSS stylesheet
+Reorganize CSS stylesheet - completed. committed 11/7 08:40. 
 Confirm appropriate nesting in HTML
