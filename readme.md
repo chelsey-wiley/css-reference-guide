@@ -6,9 +6,9 @@ Deploy through GitHub
 ## Application:
 Create an easy to access evolving resource for CSS styling. Geared toward beginners.  
 ## Process:
-1. Created an analog site layout
-2. Created CSS and HTML templates
-3. Added content to the templates
+* Created an analog site layout
+* Created CSS and HTML templates
+* Added content to the templates
 ## Problems:
 Imperfect code organization.
 ##  Solutions:
