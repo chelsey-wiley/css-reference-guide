@@ -48,6 +48,20 @@ body {
 	font-size: 18px;
 	line-height: 1;
 }
+
+header{
+		background-color: rgb(61,161,200);
+		border: solid rgb(20,18,42) 3px;
+		line-height: 30px;
+		margin: 0 auto 0 auto;
+		padding: 40px;
+		text-align: center;
+		position: fixed;
+		width: 100%;
+}
+header a{
+	text-decoration: none;
+}
 h1{
 	color: rgb(20,84,140);
 	font-family: georgia, serif;
@@ -96,8 +110,8 @@ table {
 .content-list{
 color: rgb(20,84,140);;
 display: block;
-max-width: 200px;
-padding: 30px;
+max-width: 250px;
+padding-top: 120px;
 text-align: left;
 margin: 0 auto 0 auto;
 }
@@ -124,18 +138,15 @@ text-decoration: none;
 .content-page a:hover{
 	color:rgb(61,161,200);
 }
-.container{
-	background-color: rgb(61,161,200);
-	border: solid rgb(20,18,42) 3px;
+.short-list{
+	color: rgb(20,84,140);;
 	display: block;
-	line-height: 30px;
+	max-width: 150px;
+	padding-top: 30px;
+	text-align: left;
 	margin: 0 auto 0 auto;
-	padding: 16px;
-	text-align: center;
 }
-.container a{
-	text-decoration: none;
-}
+
 .definition{
 	border: dotted rgb(20,18,42) 2px;
 	display: block;
@@ -149,7 +160,7 @@ text-decoration: none;
 	color: rgb(20,18,42);
 	line-height: 1em;}
 
-.background{
+.window{
 	border: solid rgb(20,18,42) 5px;
 	display: block;
 	line-height: 20px;
@@ -160,11 +171,11 @@ text-decoration: none;
 }
 
 
-.b-image{
+.background-image{
 	font-size: 1.5em;
 	background: url("flower.png");
 }
-.b-image p{
+.background-image p{
 	color: rgb(252,239,212);
 }
 
@@ -172,4 +183,11 @@ text-decoration: none;
 font-size: 1.5em;
 background: url("flower2.png");
 background-repeat: repeat-x;
+}
+
+.trirong{
+	font-family: "Trirong", serif;
+}
+.indie{
+	font-family: 'Indie Flower', cursive;
 }
