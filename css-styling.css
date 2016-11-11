@@ -179,7 +179,7 @@ text-decoration: none;
 	color: rgb(252,239,212);
 }
 
-.b-rep {
+.background-rep {
 font-size: 1.5em;
 background: url("flower2.png");
 background-repeat: repeat-x;
