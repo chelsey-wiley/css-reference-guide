@@ -71,8 +71,10 @@ h2{
 	color: rgb(20,84,140);
 	font-family: georgia, serif;
 	font-size: 2em;
-	margin: 10px;
-	padding: 10px;
+	margin-top: 90px;
+	margin-left: 30px;
+	margin-right: 30px;
+	padding: 20px;
 }
 h3{
 	color: rgb(20,84,140);
@@ -213,3 +215,24 @@ background-repeat: repeat-x;
 .transition-text-box:hover {
   font-size: 22px;
 }
+
+.animation-part{
+	width: 50px;
+	height: 50px;
+	background-color: rgb(20,84,140);
+	padding: 10px;
+	-webkit-animation: spin 2000ms linear infinite, moveLeftToRight 5s linear infinite;
+  -webkit-transition: all 1s ease;
+   transition: all 1s ease;
+ 	position: relative;
+   left: 0;
+ }
+ 
+ @-webkit-keyframes spin {
+   from { -webkit-transform: rotate(0deg); }
+   to { -webkit-transform: rotate(360deg); }
+ }
+ @-webkit-keyframes moveLeftToRight {
+   0%   { left: 0px; }
+   100% { left: 90%; }
+ }
